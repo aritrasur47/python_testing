@@ -95,6 +95,9 @@ driver.find_element_by_css_selector(".dn_btn").click()
 driver.find_element_by_css_selector(".src_btn").click()
 time.sleep(10)
 
+# Take screenshot
+driver.get_screenshot_as_file("booking_page.png")
+
 # Click on Book Now
 driver.find_element_by_css_selector("#BtnBookNow").click()
 
